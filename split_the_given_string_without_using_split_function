@@ -1,0 +1,10 @@
+s='city of joy'
+out=['']
+
+for i in s:
+    if i==' ':
+        out+=['']
+    else:
+        out[-1]+=i
+
+print(out)
